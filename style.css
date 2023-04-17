@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+
+
+.screen {
+    display: flex;
+    height: 100vh;
+}
+
+.leftSide img {
+    max-width: 500px;
+    height: auto;
+}
+
+.rightSide h1 {
+    text-align: center;
+
+}
+
+.leftSide {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSide {
+    text-align: center;
+    padding: 50px;
+    width: 400px;
+    background-color: #cececec4;
+}
+
+.rightSide label {
+    text-align: left;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.rightSide input {
+    border: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e8e8e8;
+    box-shadow: 6px 6px 12px #1616169d,
+        -6px -6px 12px #c5c5c5;
+    font-size: medium;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.rightSide input:focus {
+    outline-color: white;
+    place-content: "Enter your message!";
+}
+
+.error {
+    font-size: 13px;
+    background-color: red;
+    color: white;
+    padding: 4px;
+    margin-top: 5px;
+    border-radius: 7px;
+}
+
+.button {
+    margin-bottom: 20px;
+    border-radius: .25rem;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #050505;
+    -webkit-clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
+    clip-path: polygon(0 0, 0 0, 100% 0, 100% 0, 100% calc(100% - 15px), calc(100% - 15px) 100%, 15px 100%, 0 100%);
+    height: 40px;
+    font-size: 0.7rem;
+    line-height: 14px;
+    letter-spacing: 1.2px;
+    transition: .2s .1s;
+    background-image: linear-gradient(90deg, #888888, #ffffff);
+    border: 0 solid;
+    overflow: hidden;
+}
+
+.button:hover {
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease-in;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.google {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.google img {
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50px;
+}
+
+.face img {
+    cursor: pointer;
+    width: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
