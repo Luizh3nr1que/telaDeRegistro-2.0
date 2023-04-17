@@ -122,10 +122,11 @@ body {
 }
 
 a {
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: rgb(0, 0, 184);
 }
